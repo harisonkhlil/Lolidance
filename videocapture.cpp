@@ -27,8 +27,15 @@ int main() {
     Mat frame;
     int frameCount = 1;
 
+    // 目标ASCII画布大小
+    int canvasWidth = 160;
+    int canvasHeight = 45;
+
     while (true) {
         capture >> frame;
+
+        // 创建ASCII字符集
+        string asciiChars = ":M7Xi,. ";
 
         if (frame.empty()) {
             break;
@@ -38,13 +45,11 @@ int main() {
         cvtColor(frame, frame, COLOR_BGR2GRAY);
 
         // 缩小图像以适应终端大小
-        resize(frame, frame, Size(193, 54));
+        resize(frame, frame, Size(canvasWidth, canvasHeight));
 
-        // 创建ASCII字符集
-        string asciiChars = ":M7Xi,. ";
+        string asciiImage;
 
         // 将图像像素映射到ASCII字符
-        string asciiImage;
         for (int i = 0; i < frame.rows; i++) {
             for (int j = 0; j < frame.cols; j++) {
                 uchar pixelValue = frame.at<uchar>(i, j);
