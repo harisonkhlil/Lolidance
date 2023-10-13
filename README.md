@@ -1,6 +1,8 @@
 # Lolidance
 整活之作
 
+https://github.com/harisonkhlil/Lolidance/assets/70578017/228b891d-ea4f-4da1-9dc2-6013b53c671c
+
 > 通过 `OpenCV` 提取视频帧, 制作 ASCII 字符
 
 ## 注意事项
@@ -10,12 +12,12 @@
 
 ## 编译前的准备
 
-`xcode`: `xcode-select install`
-`Homebrew`: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-`Cmake`: `brew install cmake`
-`OpenCV`: `brew install opencv`
-`LLVM`: `brew install llvm`
-`Ninga`: `brew install ninga`
+1. `xcode`: `xcode-select install`
+2. `Homebrew`: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+3. `Cmake`: `brew install cmake`
+4. `OpenCV`: `brew install opencv`
+5. `LLVM`: `brew install llvm`
+6. `Ninga`: `brew install ninga`
 
 ## 编译
 
