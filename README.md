@@ -1,5 +1,5 @@
 # Lolidance
-整活之作
+整活之作, 灵感来与 [bilibili](https://www.bilibili.com/video/BV1u8411k7BD/)
 
 https://github.com/harisonkhlil/Lolidance/assets/70578017/228b891d-ea4f-4da1-9dc2-6013b53c671c
 
