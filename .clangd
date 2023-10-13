@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-std=c++20, "-I/usr/local/include",  "-I/opt/homebrew/Cellar/boost/1.82.0_1/include", "-I/opt/homebrew/Cellar/opencv/4.8.1_1/include"]
