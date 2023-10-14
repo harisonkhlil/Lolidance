@@ -1,9 +1,9 @@
 # Lolidance
 整活之作, 灵感来与 [bilibili](https://www.bilibili.com/video/BV1u8411k7BD/)
 
-https://github.com/harisonkhlil/Lolidance/assets/70578017/228b891d-ea4f-4da1-9dc2-6013b53c671c
+https://github.com/harisonkhlil/Lolidance/assets/70578017/e80f3bee-80b3-4b36-87d3-ee2016541d2b
 
-> 通过 `OpenCV` 提取视频帧, 制作 ASCII 字符
+> 通过 `OpenCV` 提取视频帧, 制作 ASCII 字符, ASCII 输出有一定间隔以致无法对齐
 
 ## 注意事项
 
