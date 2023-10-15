@@ -1,7 +1,7 @@
 # Lolidance
 整活之作, 灵感来与 [bilibili](https://www.bilibili.com/video/BV1u8411k7BD/)
 
-https://github.com/harisonkhlil/Lolidance/assets/70578017/e80f3bee-80b3-4b36-87d3-ee2016541d2b
+https://github.com/harisonkhlil/Lolidance/assets/70578017/cc933004-3594-4f43-bedd-daadd312161f
 
 > 通过 `OpenCV` 提取视频帧, 制作 ASCII 字符, ASCII 输出有一定间隔以致无法对齐
 
@@ -22,6 +22,7 @@ https://github.com/harisonkhlil/Lolidance/assets/70578017/e80f3bee-80b3-4b36-87d
 ## 编译
 
 ```sh
+cd ${HOME}/Downloads/Lolidance
 mkdir build
 cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE  -DCMAKE_CXX_COMPILER:FILEPATH=/opt/homebrew/opt/llvm/bin/clang++ -G Ninja -S${HOME}/Downloads/Lolidance -B${HOME}/Downloads/Lolidance/build
 cmake --build --config Release --target all ${HOME}/Downloads/Lolidance/build
